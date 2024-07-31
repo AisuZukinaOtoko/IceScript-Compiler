@@ -14,9 +14,9 @@ int main(int argc, char* argv[]) {
 	unsigned int flags = 0;
 
 	for (int i = 2; i < argc; i++) {
-		if (argv[i] == "-r")
+		if ((!std::strcmp(argv[i], "-r")))
 			flags |= 0b1;
-		if (argv[i] == "-d")
+		if ((!std::strcmp(argv[i], "-d")))
 			flags |= 0b10;
 	}
 
