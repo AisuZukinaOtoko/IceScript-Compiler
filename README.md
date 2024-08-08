@@ -19,5 +19,5 @@ A compiler for IceScript; a c-style language.
 ## Project Status
 Currently, the project is in the late development stage. Only integers are supported.
 Scopes are not a thing... yet.
-Functions and classes are not supported.
+Functions and classes are not supported. Neither are arrays.
 For loops also not supported. They're just fancy while loops anyways... :)
