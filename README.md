@@ -14,10 +14,10 @@ A compiler for IceScript; a c-style language.
 5. The -d flag outputs the structure of the syntax tree created. Useful for debugging.
 
 ## Supported Data Types
-1. Integer.
+1. Float.
 
 ## Project Status
-Currently, the project is in the late development stage. Only integers are supported.
+Currently, the project is in the early development stage. Only integers are supported.
 Scopes are not a thing... yet.
 Functions and classes are not supported. Neither are arrays.
 For loops also not supported. They're just fancy while loops anyways... :)
